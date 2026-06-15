@@ -1,0 +1,147 @@
+/*
+  ============================================================================
+  PROPRIETÁRIO: Mauricio Spark
+  MARCA:        Spark Mauricio
+  PROJETO:      ClickSocorro
+  VERSÃO:       v1.0.0
+  LINHAGEM:     SPARK
+  ============================================================================
+  Documento de Planejamento de Escopo
+  COPYRIGHT: © 2026 / Mauricio Spark. Todos os direitos reservados.
+  ============================================================================
+*/
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #0f172a;
+            color: #f1f5f9;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 12px;
+            object-fit: cover;
+        }
+        h1 {
+            color: #ffffff;
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        h2 {
+            color: #f1f5f9;
+            font-size: 1.5rem;
+            margin: 30px 0 20px 0;
+        }
+        .grid-emergencia {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        .btn-tel {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 12px;
+            font-size: 1.1rem;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            border: none;
+        }
+        .btn-tel:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+            filter: brightness(1.1);
+        }
+        .btn-tel:active {
+            transform: translateY(-1px);
+        }
+        .btn-tel i {
+            width: 40px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+        .btn-content {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .btn-content strong {
+            font-size: 1.3rem;
+            font-weight: 800;
+        }
+        .btn-content span {
+            font-size: 0.9rem;
+            font-weight: normal;
+            opacity: 0.95;
+            line-height: 1.3;
+        }
+        
+        /* Emergency Critical / Police & Rescue (Red Alert) */
+        .btn-danger {
+            background: linear-gradient(135deg, #c0392b 0%, #e74c3c 100%);
+        }
+        .btn-danger-light {
+            background: linear-gradient(135deg, #e74c3c 0%, #ff6b6b 100%);
+        }
+        .btn-medical {
+            background: linear-gradient(135deg, #c0392b 0%, #3498db 100%);
+        }
+        
+        /* Road Safety & Traffic (Dark Blue) */
+        .btn-traffic {
+            background: linear-gradient(135deg, #1a5276 0%, #2980b9 100%);
+        }
+        .btn-navy {
+            background: linear-gradient(135deg, #154360 0%, #1a5276 100%);
+        }
+        
+        /* Protection, Defense & Rights (Orange/Yellow Alert) */
+        .btn-warning {
+            background: linear-gradient(135deg, #d35400 0%, #e67e22 100%);
+        }
+        .btn-yellow {
+            background: linear-gradient(135deg, #b7950b 0%, #d4ac0d 100%);
+        }
+        .btn-purple {
+            background: linear-gradient(135deg, #6c3483 0%, #8e44ad 100%);
+        }
+        
+        /* Investigation & Reporting (Dark Gray/Graphite) */
+        .btn-gray {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+        }
+        .btn-dark {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+        }
+        
+        /* Health, Emotional Support & Citizenship (Green/Light Blue) */
+        .btn-cyan {
+            background: linear-gradient(135deg, #16a085 0%, #1abc9c 100%);
+        }
+        .btn-sus {
+            background: linear-gradient(135deg, #2980b9 0%, #5dade2 100%);
+        }
+        .btn-green {
+            background: linear-gradient(135deg, #1e8449 0%, #27ae60 100%);
+        }
+        .btn-brown {
+            background: linear-gradient(135deg, #6d4c41 0%, #8d6e63 100%);
+        }

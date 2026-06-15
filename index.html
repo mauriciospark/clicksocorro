@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!--
+  ============================================================================
+  PROPRIETÁRIO: Mauricio Spark
+  MARCA: SparkMauricio
+  PROJETO:      
+  VERSÃO: v1.0.0
+  LINHAGEM: SPARK
+  ============================================================================
+  Documento de Planejamento de Escopo
+  COPYRIGHT: © 2026 / Mauricio Spark. Todos os direitos reservados.
+  ============================================================================
+-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickSocorro</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="/favicon/logo.jpeg" alt="ClickSocorro" class="logo">
+            <h1>ClickSocorro</h1>
+        </header>
+
+        <h2>🚨 Principais Emergências</h2>
+        <div class="grid-emergencia">
+            <a href="tel:190" class="btn-tel btn-danger">
+                <i data-lucide="shield"></i>
+                <div class="btn-content">
+                    <strong>190</strong> - Polícia Militar
+                    <span>Crimes em andamento, violência e assaltos</span>
+                </div>
+            </a>
+
+            <a href="tel:193" class="btn-tel btn-danger-light">
+                <i data-lucide="flame"></i>
+                <div class="btn-content">
+                    <strong>193</strong> - Bombeiros
+                    <span>Incêndios, salvamentos e acidentes com vítimas</span>
+                </div>
+            </a>
+
+            <a href="tel:192" class="btn-tel btn-medical">
+                <i data-lucide="ambulance"></i>
+                <div class="btn-content">
+                    <strong>192</strong> - SAMU
+                    <span>Urgências médicas e ambulância de socorro</span>
+                </div>
+            </a>
+
+            <a href="tel:191" class="btn-tel btn-traffic">
+                <i data-lucide="car"></i>
+                <div class="btn-content">
+                    <strong>191</strong> - PRF
+                    <span>Acidentes e crimes em rodovias federais (BRs)</span>
+                </div>
+            </a>
+
+            <a href="tel:198" class="btn-tel btn-traffic">
+                <i data-lucide="milestone"></i>
+                <div class="btn-content">
+                    <strong>198</strong> - PR Estadual
+                    <span>Acidentes e ocorrências em rodovias estaduais</span>
+                </div>
+            </a>
+        </div>
+
+        <h2>🛡️ Proteção Civil e Apoio Social</h2>
+        <div class="grid-emergencia">
+            <a href="tel:199" class="btn-tel btn-warning">
+                <i data-lucide="triangle-alert"></i>
+                <div class="btn-content">
+                    <strong>199</strong> - Defesa Civil
+                    <span>Alagamentos, desabamentos e desastres naturais</span>
+                </div>
+            </a>
+
+            <a href="tel:100" class="btn-tel btn-yellow">
+                <i data-lucide="hand-heart"></i>
+                <div class="btn-content">
+                    <strong>100</strong> - Direitos Humanos
+                    <span>Denúncias de violações e proteção à criança/adolescente</span>
+                </div>
+            </a>
+
+            <a href="tel:180" class="btn-tel btn-purple">
+                <i data-lucide="heart"></i>
+                <div class="btn-content">
+                    <strong>180</strong> - Central da Mulher
+                    <span>Violência doméstica, acolhimento e denúncias</span>
+                </div>
+            </a>
+
+            <a href="tel:181" class="btn-tel btn-dark">
+                <i data-lucide="eye-off"></i>
+                <div class="btn-content">
+                    <strong>181</strong> - Disque-Denúncia
+                    <span>Denúncias anônimas de crimes e tráfico</span>
+                </div>
+            </a>
+        </div>
+
+        <h2>🛠️ Outros Serviços Úteis</h2>
+        <div class="grid-emergencia">
+            <a href="tel:197" class="btn-tel btn-gray">
+                <i data-lucide="file-search"></i>
+                <div class="btn-content">
+                    <strong>197</strong> - Polícia Civil
+                    <span>Registro de ocorrências e investigações (não emergencial)</span>
+                </div>
+            </a>
+
+            <a href="tel:188" class="btn-tel btn-cyan">
+                <i data-lucide="heart-pulse"></i>
+                <div class="btn-content">
+                    <strong>188</strong> - CVV
+                    <span>Apoio emocional e prevenção ao suicídio (Gratuito 24h)</span>
+                </div>
+            </a>
+
+            <a href="tel:153" class="btn-tel btn-navy">
+                <i data-lucide="shield-alert"></i>
+                <div class="btn-content">
+                    <strong>153</strong> - Guarda Municipal
+                    <span>Segurança local, patrimônio e trânsito da cidade</span>
+                </div>
+            </a>
+
+            <a href="tel:136" class="btn-tel btn-sus">
+                <i data-lucide="stethoscope"></i>
+                <div class="btn-content">
+                    <strong>136</strong> - Disque Saúde (SUS)
+                    <span>Informações médicas, vacinas e postos do SUS</span>
+                </div>
+            </a>
+
+            <a href="tel:151" class="btn-tel btn-green">
+                <i data-lucide="scale"></i>
+                <div class="btn-content">
+                    <strong>151</strong> - PROCON
+                    <span>Defesa do consumidor e denúncias comerciais</span>
+                </div>
+            </a>
+
+            <a href="tel:156" class="btn-tel btn-brown">
+                <i data-lucide="building-2"></i>
+                <div class="btn-content">
+                    <strong>156</strong> - Central da Prefeitura
+                    <span>Problemas urbanos (iluminação, buracos, podas)</span>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+<script>lucide.createIcons();</script>
+
+</html>
