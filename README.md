@@ -40,7 +40,7 @@ ClickSocorro é uma aplicação web de discagem rápida de emergência projetada
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/clicksocorro.git
+   git clone https://github.com/mauriciospark/clicksocorro.git
    cd clicksocorro
    ```
 
