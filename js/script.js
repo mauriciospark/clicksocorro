@@ -58,3 +58,4 @@ function buscarLocalizacao() {
         textoCoordenadas.innerText = "Geolocalização não é suportada pelo seu navegador.";
     }
 }
+/*Jinwookaisel*/ */

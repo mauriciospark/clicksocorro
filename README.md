@@ -80,3 +80,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para d
 ## Contato
 
 Desenvolvido por Mauricio Spark - Spark Mauricio
+
+Desenvolvido por Jinwoo kaisel - Spark Mauricio
+
