@@ -10,6 +10,7 @@
   COPYRIGHT: © 2026 / Mauricio Spark. Todos os direitos reservados.
   ============================================================================
 */
+//Jinwookaisel
 document.querySelectorAll('.btn-tel').forEach(botao => {
     botao.addEventListener('click', function(e) {
         // Detecção simples de dispositivo móvel
